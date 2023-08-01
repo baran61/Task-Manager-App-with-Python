@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: cyan;
+    color: #333; /* Change the text color */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+h1 {
+    font-size: 40px; /* Increase heading size */
+
+}
+
+h2 {
+    font-size: 28px; /* Increase heading size */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 15px; /* Increase input padding for bigger text size */
+    font-size: 20px; /* Increase input text size */
+    border: 1px solid #5ff33e;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #e36d6d; /* Set text color to white */
+    cursor: pointer;
+    font-size: 24px; /* Increase submit button text size */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.messages li {
+    color: #007bff;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #e80c0c; /* Set task item background to white */
+    padding: 15px; /* Increase task item padding */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin-left: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.completed-badge {
+    background-color: #28a745;
+    color: #5ff33e; /* Set text color to white */
+    padding: 8px 15px; /* Decrease completed badge padding */
+    border-radius: 3px;
+    font-size: 18px; /* Increase completed badge text size */
+}
